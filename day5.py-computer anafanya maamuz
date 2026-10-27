@@ -1,0 +1,12 @@
+umri=int(input("weka umri wako:"))
+if umri >= 18:
+       print("wewe ni mkubwa, unaweza kupiga kura!")
+else:
+       print ("wewe bado ni mdogo.")
+  # Bonus: Tukizid kidogo
+  if umri < 13:
+       print("wewe ni mtoto")
+elif umri < 20
+       print ("wewe ni kijana")
+else:
+      print ("wewe ni mtu mzima")
