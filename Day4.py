@@ -1,0 +1,6 @@
+jina=input("jina lako ni")
+umri=input("una miaka mingapi")
+print("Habari")
+print(jina)
+print("umesema una miaka")
+print(umri)
