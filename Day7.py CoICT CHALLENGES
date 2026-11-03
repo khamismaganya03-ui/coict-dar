@@ -1,0 +1,41 @@
+def get_grade(alama):
+   """Hii function inapokea alama na rudisha grade"""
+   if alama >= 80:
+     return "A"
+   if alama >= 65:
+      return "B"
+   if alama >= 50:
+      return "C"
+   if alama >= 35:
+      return "D"
+   elif:
+     return "F"
+
+def get_comment(grade)
+   """Hii function inatoa maoni kulingana na grade"""
+    comments {
+    "A": "Excellent! Hongera sana!",
+    "B": "Vizuri sana!",
+    "C": "Sawa, jitahidi zaidi",
+    "D": "Uko njiani, Soma zaidi",
+    "F": "Pole jaribu tena"
+    }
+  return comments.get(grade, "")
+
+#---MAIN PROGRAM---
+  Print("=== DAY 7 - GRADE SYSTEM WITH FUNCTION===")
+jina = input("Weka jina lako:")
+try:
+   alama = int(input(f"Sawa {jina}, weka alama yako (0-100): "))
+   if 0 <= alama <= 100:
+      grade = get_grade(alama)
+      comment = get_comment(grade)
+      print("/n-----MATOKEO-----")
+      print(f"Jina: {jina}" )
+      print(f"Alama: {alama}" )
+      print(f"Grade: {grade}" )
+      print(f"Maaoni: {comment}" )
+else:
+     print("Alama lazima iwe 0 hadi 100!")
+except ValueError:
+    print("Tafadhali weka namba tu, si maneno!")
